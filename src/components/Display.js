@@ -9,6 +9,7 @@ const Display = (stuff) => {
                     (<li key={id}>{e}</li>)
                 )}
             </ol>
+            {console.log(stuff)}
         </div>
     );
 };

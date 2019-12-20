@@ -7,8 +7,7 @@ class ToAdd extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      inputStr: "",
-      inputArr: []
+      inputStr: ""
     };
   }
   updateInput = input => {
