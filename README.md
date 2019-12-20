@@ -126,4 +126,6 @@ export default connect(mapStateToProps)(Display);
 
 We just need to define a special function called mapStateToProps that access the current Redux store state tree. We pass it into the props to the component.
 
-From here, it is easier to understand the need of selectors, multiple reducers and the combineReducers() function.
+*That was quite simple, wasn't it ?*
+
+From here, it should be easier to understand the need of [selectors](https://blog.isquaredsoftware.com/2017/12/idiomatic-redux-using-reselect-selectors/), multiple reducers and the [combineReducers](https://redux.js.org/api/combinereducers) function.
