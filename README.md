@@ -10,14 +10,14 @@ This post assumes you know the basics of react. And of course, react, redux and 
 
 Refer to [Three Principles](https://redux.js.org/introduction/three-principles).
 
-* **[store]**(https://redux.js.org/introduction/three-principles#single-source-of-truth) : where the state is stored as a  object tree.
-* **[action]**(https://redux.js.org/introduction/three-principles#state-is-read-only) : an object describing the change to the state.
-* **[reducer]**(https://redux.js.org/introduction/three-principles#changes-are-made-with-pure-functions) : a function that returns the new state.
+* [**store**](https://redux.js.org/introduction/three-principles#single-source-of-truth) : where the state is stored as a  object tree.
+* [**action**](https://redux.js.org/introduction/three-principles#state-is-read-only) : an object describing the change to the state.
+* [**reducer**](https://redux.js.org/introduction/three-principles#changes-are-made-with-pure-functions) : a function that returns the new state.
 
 ### React-redux
 
-* **[Provider]**(https://react-redux.js.org/api/provider) : takes the store as props and make it available to the nested component.
-* **[Connect]**(https://react-redux.js.org/api/connect) : a function that connects a React component to a Redux store.
+* [**Provider**](https://react-redux.js.org/api/provider) : takes the store as props and make it available to the nested component.
+* [**Connect**](https://react-redux.js.org/api/connect) : a function that connects a React component to a Redux store.
 
 ## Flow of the data
 
